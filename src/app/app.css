@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  background-color: #1a202c;
+  padding: 1rem;
+}
+
+nav a {
+  color: #cbd5e0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #63b3ed;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
