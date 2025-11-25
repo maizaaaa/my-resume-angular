@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume - Contact</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="container nav-content">
+    <a class="logo" href="../home/home.html">Maizatul Hasanah</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">
+      &#9776;
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../home/home.html">Home</a></li>
+      <li><a href="../hobbies/hobbies.html">Hobbies</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Contact Section -->
+<section class="section-padding">
+  <div class="container">
+
+    <div class="content-block center">
+      <h2>Let's Connect!</h2>
+      <p>I thrive on collaboration and new challenges. The best ways to reach me are through these professional channels:</p>
+    </div>
+
+    <!-- Interactive Contact Links -->
+    <div class="interactive-contact-links">
+
+      <!-- LinkedIn -->
+      <a class="contact-link-card" href="https://linkedin.com/in/maizatul-hasanah" target="_blank">
+        <span class="icon">&#x1F517;</span>
+        <span>LinkedIn</span>
+      </a>
+
+      <!-- GitHub -->
+      <a class="contact-link-card" href="https://github.com/maizaaaa" target="_blank">
+        <span class="icon">&#x1F4BB;</span>
+        <span>GitHub</span>
+      </a>
+
+      <!-- Email -->
+      <a class="contact-link-card" href="mailto:maizatulhasanah02@gmail.com">
+        <span class="icon">&#x2709;&#xFE0F;</span>
+        <span>Send Email</span>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+
+<!-- Footer -->
+<footer class="footer">
+  &copy; 2025 Maizatul Hasanah. All Rights Reserved.
+</footer>
+
+<script>
+  // Mobile menu toggle
+  document.getElementById('menuToggle').addEventListener('click', function() {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>

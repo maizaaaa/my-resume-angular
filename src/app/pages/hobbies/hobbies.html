@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume - Hobbies</title>
+  <link rel="stylesheet" href="hobbies.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="container nav-content">
+    <a class="logo" href="../home/home.html">Maizatul Hasanah</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">
+      &#9776;
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../home/home.html">Home</a></li>
+      <li><a class="active" href="hobbies.html">Hobbies</a></li>
+      <li><a href="../contact/contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hobbies Section -->
+<section class="section-padding">
+  <div class="container">
+    <div class="content-block">
+      <h2>My Hobbies & Interests</h2>
+      <p>I believe that having a diverse set of interests outside of professional work enhances creativity and problem-solving skills. Here are a few things I enjoy doing in my free time.</p>
+    </div>
+
+    <div class="hobbies-grid section-padding">
+      <!-- Hobby Card 1 -->
+      <div class="hobby-card">
+        <h3>&#x1F4BB; Coding Side Projects</h3>
+        <p>Experimenting with new web technologies like React or Vue.js, and building small utility applications just for fun. This keeps my technical skills sharp.</p>
+      </div>
+
+      <!-- Hobby Card 2 -->
+      <div class="hobby-card">
+        <h3>&#x1F3A8; Digital Art & Design</h3>
+        <p>Using tools like Figma and Krita to create user interface mockups and digital illustrations. It's a great way to balance the analytical side of coding with creativity.</p>
+      </div>
+
+      <!-- Hobby Card 3 -->
+      <div class="hobby-card">
+        <h3>&#x1F30C; Reading Sci-Fi/Fantasy</h3>
+        <p>Escaping into fictional worlds helps spark imagination and provides a fresh perspective, which is surprisingly helpful in conceptualizing complex software architectures.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  &copy; 2025 Maizatul Hasanah. All Rights Reserved.
+</footer>
+
+<script>
+  // Simple JavaScript for mobile menu toggle
+  document.getElementById('menuToggle').addEventListener('click', function() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
