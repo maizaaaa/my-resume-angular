@@ -1,8 +1,15 @@
-<nav>
-  <a routerLink="">Home</a>
-  <a routerLink="hobbies">Hobbies</a>
-  <a routerLink="contact">Contact</a>
+<nav class="navbar">
+  <div class="container nav-content">
+    <a class="logo" href="">Maizatul Hasanah</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="hobbies">Hobbies</a></li>
+      <li><a routerLink="contact">Contact</a></li>
+    </ul>
+  </div>
 </nav>
+
 <hr>
 
 <router-outlet></router-outlet>

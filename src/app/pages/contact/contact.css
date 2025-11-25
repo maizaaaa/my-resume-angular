@@ -1,8 +1,8 @@
 
 :root {
-  --primary-color: #4a5568; /* Dark Gray for main text */
-  --secondary-color: #2d3748; /* Even darker for titles/nav */
-  --accent-color: #63b3ed; /* Light Blue for highlights */
+  --primary-color: #4a5568;
+  --secondary-color: #2d3748;
+  --accent-color: #63b3ed;
   --bg-light: #f7fafc;
   --bg-dark: #1a202c;
   --max-width: 1100px;
@@ -34,55 +34,6 @@ body {
   padding: 4rem 0;
 }
 
-/* --- Navigation Bar --- */
-.navbar {
-  background-color: var(--bg-dark);
-  padding: 1rem 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.nav-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: white;
-  text-decoration: none;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links a {
-  color: #cbd5e0;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-  padding: 0.25rem 0;
-}
-
-.nav-links a:hover, .nav-links a.active {
-  color: var(--accent-color);
-  border-bottom: 2px solid var(--accent-color);
-}
-
-/* Hamburger Menu (Hidden on Desktop) */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
 /* Section */
 .section-padding {
   padding: 50px 0;
@@ -99,6 +50,11 @@ body {
 
 .center {
   text-align: center;
+}
+
+.content-block h2 {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
 }
 
 /* --- Contact Page Specific (Interactive) --- */
@@ -123,7 +79,7 @@ body {
   transition: transform 0.3s ease, background-color 0.3s ease;
   text-decoration: none;
   color: var(--secondary-color);
-  flex: 1 1 200px; /* Flexible width for responsiveness */
+  flex: 1 1 200px;
   min-width: 200px;
 }
 
@@ -167,7 +123,7 @@ body {
 /* --- Responsiveness (Mobile Adjustments) --- */
 @media (max-width: 768px) {
   .grid-layout {
-    grid-template-columns: 1fr; /* Stack columns on mobile */
+    grid-template-columns: 1fr;
   }
 
   .hero-section h1 {
@@ -184,11 +140,11 @@ body {
   }
 
 .nav-links {
-  display: none; /* Hide links by default */
+  display: none;
   flex-direction: column;
   width: 100%;
   position: absolute;
-  top: 60px; /* Below the navbar */
+  top: 60px;
   left: 0;
   background-color: var(--bg-dark);
   padding: 1rem 0;

@@ -6,10 +6,7 @@ import { LocationStrategy, HashLocationStrategy}  from '@angular/common';
   selector: 'app-root',
   imports: [RouterOutlet, RouterLink],
   templateUrl: './app.html',
-  styleUrl: './app.css',
-  providers: [
-    { provide: LocationStrategy, useClass: HashLocationStrategy }
-  ]
+  styleUrl: './app.css'
 })
 export class App {
   protected readonly title = signal('my-resume-angular');

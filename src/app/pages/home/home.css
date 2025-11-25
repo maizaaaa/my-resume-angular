@@ -74,22 +74,12 @@ body {
   border-bottom: 2px solid var(--accent-color);
 }
 
-/* Hamburger Menu (Hidden on Desktop) */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
 
 /* --- Hero Section --- */
 .hero-section {
   text-align: center;
   padding: 6rem 0;
   background-color: var(--bg-light);
-  margin-top: 1rem; /* FIX: Clear space under navbar */
 }
 
 .profile-img {
@@ -120,13 +110,26 @@ body {
   gap: 2rem;
 }
 
+/* --- Layout Utilities --- */
+.container {
+  width: 90%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.section-padding {
+  padding: 4rem 0;
+}
+
 .content-block h2 {
   color: var(--secondary-color);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .content-block {
   background-color: var(--bg-light);
+  text-align: center;
   padding: 1.5rem;
   border-radius: var(--border-radius);
   border: 1px solid #d4d4d4;
@@ -136,8 +139,7 @@ body {
 
 
 .content-block:hover {
-  background-color: #e2ecf7; /* Light blue */
-  transform: translateY(-5px);  /* Small lift on hover */
+  background-color: #e2ecf7;
 }
 
 

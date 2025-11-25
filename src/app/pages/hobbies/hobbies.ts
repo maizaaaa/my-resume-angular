@@ -2,10 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-hobbies',
-  imports: [],
+  standalone: true,
   templateUrl: './hobbies.html',
-  styleUrl: './hobbies.css',
+  styleUrls: ['./hobbies.css'],
 })
-export class Hobbies {
-
-}
+export class Hobbies {}
