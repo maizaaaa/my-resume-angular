@@ -1,0 +1,7 @@
+{
+  "routes": {
+    "/my-resume-angular": {},
+    "/my-resume-angular/contact": {},
+    "/my-resume-angular/hobbies": {}
+  }
+}
